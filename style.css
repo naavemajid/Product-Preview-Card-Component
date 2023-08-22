@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    Font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    width: 300px;
+    
+
+}
+
+.card img{
+    width: 100%;
+    
+}
+
+.container{
+    display: flex;
+      
+}
+
+
+
+/* PERFUME */
+
+.text{
+    width: 300px;
+    height: 450px;
+    padding: 25px;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.gabrielle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+.floral{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.price .small-price{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color:  hsl(158, 36%, 37%);
+    
+}
+
+.price .big-price{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+.cart{
+    background-color:  hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 18px;
+    color: hsl(0, 0%, 100%);
+    
+    
+}
+
+.cart:hover{
+    background-color: hsl(158, 42%, 15%);
+}
+
+.cart p{
+    margin-left: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width:375px){
+
+    body{
+        padding: 200px;
+    }
+
+    .container{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 20px 300px;
+    };
+
+    
+
+
+}
+
